@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+out
+*.iml
+.idea
+.idea/uiDesigner.xml
+*.iml
