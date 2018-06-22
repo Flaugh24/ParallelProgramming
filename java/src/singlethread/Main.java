@@ -1,7 +1,7 @@
 package singlethread;
 
-import fir.FIR;
-import generator.Generator;
+import util.FIR;
+import util.Generator;
 
 import java.util.Arrays;
 

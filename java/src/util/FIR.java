@@ -1,4 +1,4 @@
-package fir;
+package util;
 
 import static java.lang.Math.PI;
 import static java.lang.StrictMath.cos;
@@ -14,6 +14,10 @@ public class FIR {
     private static double H[] = new double[N]; //Импульсная характеристика фильтра
     private static double H_id[] = new double[N]; //Идеальная импульсная характеристика
     private static double W[] = new double[N]; //Весовая функция
+
+    private FIR(){
+        throw new UnsupportedOperationException();
+    }
 
     static {
         //Расчет импульсной характеристики фильтра

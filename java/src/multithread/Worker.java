@@ -1,10 +1,10 @@
 package multithread;
 
-import fir.FIR;
+import util.FIR;
 
 import java.util.concurrent.Callable;
 
-import static fir.FIR.N;
+import static util.FIR.N;
 
 public class Worker implements Callable<double[]> {
 
